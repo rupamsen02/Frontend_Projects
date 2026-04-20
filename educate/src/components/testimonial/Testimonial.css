@@ -1,0 +1,174 @@
+.testimonial {
+  margin: 100px 0;
+  /* width: 50%; */
+  position: relative;
+}
+.heading {
+  display: block;
+  text-align: center;
+}
+.slider {
+  width: 80%;
+  margin: 80px auto;
+  overflow: hidden;
+  border: 0;
+}
+.slider ul {
+  display: flex;
+  list-style: none;
+  margin: 8px 0px;
+  transition: 1.5s;
+  width: 200%;
+  overflow-x: hidden;
+}
+.slider ul li {
+  padding: 50px 0px;
+  margin: 0 30px;
+  box-sizing: border-box;
+}
+.slide {
+  border-radius: 20px;
+  padding: 20px 30px;
+  border: 0;
+  box-shadow: 0 0 20px 0 #b9b6b6;
+  width: 100%;
+  height: 100%;
+  margin: 0 5px;
+}
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 56%;
+  width: 50px;
+  cursor: pointer;
+}
+.next-btn {
+  right: 5%;
+}
+.prev-btn {
+  left: 5%;
+}
+.slide img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.flex {
+  display: flex;
+  gap: 12px;
+  padding: 4px 6px;
+}
+.details {
+  width: 100%;
+}
+.details h3 {
+  font-size: 17px;
+}
+.details p {
+  font-size: 14px;
+  color: rgb(54, 51, 51);
+}
+.slide hr {
+  margin: 8px 0;
+  border-color: rgb(232, 219, 219);
+}
+
+@media (max-width: 1200px) {
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 56%;
+    width: 50px;
+    cursor: pointer;
+  }
+  .next-btn {
+    right: 3%;
+  }
+  .prev-btn {
+    left: 3%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slider {
+    width: 80%;
+    margin: 80px auto;
+    overflow: hidden;
+    border: 0;
+  }
+  .slider ul {
+    display: flex;
+    list-style: none;
+    margin: 8px 50px;
+    transition: 1.5s;
+    width: 350%;
+    overflow-x: hidden;
+  }
+  .slider ul li {
+    padding: 50px 0px;
+    margin: 0 30px;
+    box-sizing: border-box;
+  }
+  .slide {
+    border-radius: 20px;
+    padding: 20px 30px;
+    border: 0;
+    box-shadow: 0 0 20px 0 #b9b6b6;
+    width: 100%;
+    height: 100%;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider {
+    width: 80%;
+    margin: 80px auto;
+    overflow: hidden;
+    border: 0;
+  }
+  .slider ul {
+    display: flex;
+    list-style: none;
+    margin: 8px 50px;
+    transition: 1.5s;
+    width: 340%;
+    overflow-x: hidden;
+  }
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 56%;
+    width: 50px;
+    cursor: pointer;
+  }
+  .next-btn {
+    right: 1%;
+  }
+  .prev-btn {
+    left: 1%;
+  }
+}
+
+@media (max-width: 674px) {
+  .slider ul {
+    display: flex;
+    list-style: none;
+    margin: 8px 10px;
+    transition: 1.5s;
+    width: 380%;
+    overflow-x: hidden;
+  }
+  .slide {
+    border-radius: 20px;
+    padding: 20px 30px;
+    border: 0;
+    box-shadow: 0 0 20px 0 #b9b6b6;
+    width: 100%;
+    height: 100%;
+    margin: 0 2px;
+    text-align: center;
+  }
+}
+
+
